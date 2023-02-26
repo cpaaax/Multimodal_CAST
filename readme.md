@@ -22,6 +22,16 @@ which do not employ comment modeling or self-training.
 **Framework illustration**\
 ![avatar](model.png)
 
+**Dataset**\
+In compliance with Twitter policy, the dataset (i.e., 27M cross-media tweets with comments) is available for non-commercial research only (https://developer.twitter.com/en/developer-terms/policy) and cannot be used for any discriminatory purpose, event monitoring, profiling or targeting of individuals.
+
+The dataset, in the form of tweet IDs, can be obtained upon request to the authors by filling the following form: https://docs.google.com/forms/d/1vx6V3MTHr2p0zbGlU8-k66KnAPWr3d237xAXpfXyQPw.
+
+
+
+
+
+
 ## Data
 ### ITR task
 Fot the ITR task, you could find the training file which contains tweet text and annotated label from `scripts/split_data/train_file.json`. 
