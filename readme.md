@@ -43,7 +43,7 @@ Then, extract the image features of both labeled data and unlabeled data by the 
 cd ITR_task/extract_img_features
 python extract_img_feature.py
 ```
-TODO: For the 27M dataset, the code and data for other tasks will be released soon.
+TODO: For the the code and data for other tasks will be released soon.
 ## Installation
 ```
 # Create environment
