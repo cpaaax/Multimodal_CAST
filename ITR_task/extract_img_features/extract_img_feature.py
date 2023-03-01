@@ -109,7 +109,6 @@ def multi_process(image_root_path, save_root_path,max_process):
     pool_list = []
 
 
-    # 例如5000张img, 6个cpu, process_label为[0 834 1668 2502 3336 4170]  则最后一个cpu需要计算indxes[4170:]
     for i,lab  in enumerate(process_label):
 
         if i == len(process_label)-1:
