@@ -27,10 +27,8 @@ In compliance with Twitter policy, the dataset (i.e., 27M cross-media tweets wit
 
 The dataset, in the form of tweet IDs, can be obtained upon request to the authors by filling the following form: https://docs.google.com/forms/d/1vx6V3MTHr2p0zbGlU8-k66KnAPWr3d237xAXpfXyQPw.
 
-
-
-
-
+## Retrieval
+For the details of retrieval, please see the   `readme.md` in `./retrieval_code`.
 
 ## Data
 ### ITR task
