@@ -56,7 +56,7 @@ The final similar results are saved in `'./faiss_save/ITR/retrieval_results_inde
 To get the related images, texts and comments based on the `'./faiss_save/ITR/retrieval_results_index.json'`, run:
 ```
 cd faiss_retrieval
-python get_self_training_data.py.py
+python get_self_training_data.py
 ```
 
 
