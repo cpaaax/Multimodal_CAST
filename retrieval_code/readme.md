@@ -1,5 +1,6 @@
 **Extract features**\
 ***Extract image features***
+Download the resnet weights from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/EfDWDBJUTLlBkBqpJJje8VkB5of73Jc2k7RYbmiCRGLKpw?e=Znf7P0), and put the weights in `./extract_img_features/imagenet_weights/resnet101_caffe.pth`. Then run:
 ```
 cd extract_img_features
 python multi_image_preprocess.py
