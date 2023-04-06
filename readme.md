@@ -41,6 +41,20 @@ Then, extract the image features of both labeled data and unlabeled data by the 
 cd ITR_task/extract_img_features
 python extract_img_feature.py
 ```
+### MSD task
+Fot the MSD task, you can download the data which contains training text data, validation text data, test text data, attributes and retrieval results from [here](https://connectpolyu-my.sharepoint.com/:f:/r/personal/21038672r_connect_polyu_hk/Documents/accepted_paper_data/EMNLP_self_training/multimodal_sarcasm/data?csf=1&web=1&e=AOBKH8) and put the data under `MSD_task`. 
+For raw tweet image data of the MSD dataset (labeled data), please find it from [here](https://connectpolyu-my.sharepoint.com/:u:/r/personal/21038672r_connect_polyu_hk/Documents/accepted_paper_data/EMNLP_self_training/multimodal_sarcasm/MSD_dataset.zip?csf=1&web=1&e=gJclGV). 
+For raw images of retrieved similar tweets (unlabeled data), please find it from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/ERSEEiZJ9fJKumVP5FK_Ly0BJOpvF5035j8qxf67MnUB5Q?e=cFkZ8f).
+Then, extract the image features of both labeled data and unlabeled data by the following command:
+```
+cd MSD_task/extract_img_features
+python extract_img_feature.py
+```
+
+
+
+
+
 TODO: For the the code and data for other tasks will be released soon.
 ## Installation
 ```
@@ -57,6 +71,7 @@ cd ITR_task
 python run_rel.py --img_feature_path /home/sdb_pro/EMNLP2022_self-training_code/training_features/img_text_rel/img_features --self_img_feature_path /home/sdb_pro/EMNLP2022_self-training_code/training_features/img_text_rel/extract_features_resnet152_3
 ```
 We provide our pretrained models of ITR task in [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/ERzpdx2oPPtBtBRDzc3Dqk0BK3ZuBeW_QtS8BabwGvkKgg?e=nYDglq).
+
 
 
 # License
