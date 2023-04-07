@@ -7,7 +7,7 @@ def parse_opt():
                         default='./data/retrieval/retrieval_results_text_comment_top20.json')
     parser.add_argument('--img_feature_path', type=str,
                         default='/home/xcp/code/EMNLP2022_final_code/data/sarcasm/img_features')
-    parser.add_argument('--img_feature_self_train_path', type=str,
+    parser.add_argument('--self_img_feature_path', type=str,
                         default='/home/xcp/code/EMNLP2022_final_code/data/sarcasm/extract_features_resnet152_3')
     # parser.add_argument('--img_feature_path', type=str,
     #                     default='/home/sdb_pro/EMNLP2022_self-training_code/training_features/sarcasm/img_features')
