@@ -55,9 +55,19 @@ python extract_img_feature.py
 
 You can download the extracted image features of labeled data [link](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/Ed_DrZGhR8lOmhAMax2lX1QBx0KaJP2EQd2RE8NJWykMEQ?e=MLMbPt) and unlabeled data [link](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/EZqeF0jCiHVMmvycsp4RhswBR1dTZOXuI4UIEvS6scqFMg?e=JkzzH1). Then unzip them to `MSD_task`.
 
+### MVSA task
+Fot the MVSA task, you can download the data which contains training text data, validation text data, test text data, and retrieval results from [here](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21038672r_connect_polyu_hk/EgdyO8cVhutLqLaHXtm5ltcBzTeCnaqlw9l9lgrdfamgYQ) and put the data under `MVSA_task`. 
+For raw tweet image data of the MVSA dataset (labeled data), please find it from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/Ed6Q5c6g4zNNozdOovWTaq0BavbHs8ZnNOXqhnBhoF0GtQ). 
+For raw images of retrieved similar tweets (unlabeled data), please find it from [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/EWYU8wMGFIFLpitcc-thK8sBjWqGNSMjxjcw_WxVE4ACgg).
+Then, extract the image features of both labeled data and unlabeled data by the following command:
+```
+cd MVSA_task/extract_img_features
+python extract_img_feature.py
+```
+
+You can download the extracted image features of labeled data [link](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/ER8dYLsEtl9Mm29EhqleWecBSLKVP6N05VYmsawy8n-0eQ) and unlabeled data [link](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/EbyDtwvxBMpCu1H-x7YMZ0YB7JepABisWC6nRQsjxos5rQ). Then unzip them to `MVSA_task`.
 
 
-TODO: For the the code and data for other tasks will be released soon.
 ## Installation
 ```
 # Create environment
@@ -80,6 +90,14 @@ cd MSD_task
 python run_sarcasm.py --img_feature_path ./img_features --self_img_feature_path ./self_img_features_3
 ```
 We provide our pretrained models of MSD task in [here](https://connectpolyu-my.sharepoint.com/:u:/g/personal/21038672r_connect_polyu_hk/ETfXNYkm55RNtKHQQEAtNpUBYwkLyY5Fjx6jODUUBOG5ag?e=AqnANi).
+
+### MVSA task
+```
+cd MVSA_task
+python run_sentiment.py --img_feature_path ./img_features --self_img_feature_path ./self_img_features_5
+```
+We provide our pretrained models of MSD task in [here](https://connectpolyu-my.sharepoint.com/:f:/g/personal/21038672r_connect_polyu_hk/EiRX0ZWb-alNruv19rhDfnsBxYVx2KV-Ap5E7PjFiRAFwA?e=qtGSXd).
+
 
 # License
 This project is licensed under the terms of the MIT license. 
